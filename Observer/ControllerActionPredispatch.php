@@ -1,21 +1,21 @@
 <?php
 
-namespace MagePsycho\Easypathhints\Observer;
+namespace outeredge\Easypathhints\Observer;
 
 use Magento\Framework\Event\Observer;
 use Magento\Framework\Event\ObserverInterface;
 use Magento\Framework\App\Config\MutableScopeConfigInterface;
 use Magento\Store\Model\ScopeInterface;
-use MagePsycho\Easypathhints\Helper\Data as EasypathhintsHelper;
-use MagePsycho\Easypathhints\Helper\Config as EasypathhintsConfigHelper;
+use outeredge\Easypathhints\Helper\Data as EasypathhintsHelper;
+use outeredge\Easypathhints\Helper\Config as EasypathhintsConfigHelper;
 
 /**
  * Observer Class
  *
- * @category   MagePsycho
- * @package    MagePsycho_Easypathhints
- * @author     Raj KB <magepsycho@gmail.com>
- * @website    http://www.magepsycho.com
+ * @category   outeredge
+ * @package    outeredge_Easypathhints
+ * @author     Raj KB <outeredge@gmail.com>
+ * @website    http://www.outeredge.com
  */
 class ControllerActionPredispatch implements ObserverInterface
 {

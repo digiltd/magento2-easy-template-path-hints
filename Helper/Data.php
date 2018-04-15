@@ -1,5 +1,5 @@
 <?php
-namespace MagePsycho\Easypathhints\Helper;
+namespace outeredge\Easypathhints\Helper;
 
 use Magento\Framework\App\Helper\Context;
 use Magento\Framework\Module\ModuleListInterface;
@@ -7,20 +7,20 @@ use Magento\Framework\Module\ModuleListInterface;
 /**
  * Utility Helper
  *
- * @category   MagePsycho
- * @package    MagePsycho_Easypathhints
- * @author     Raj KB <magepsycho@gmail.com>
- * @website    http://www.magepsycho.com
+ * @category   outeredge
+ * @package    outeredge_Easypathhints
+ * @author     Raj KB <outeredge@gmail.com>
+ * @website    http://www.outeredge.com
  */
 class Data extends \Magento\Framework\App\Helper\AbstractHelper
 {
     /**
-     * @var \MagePsycho\Easypathhints\Logger\Logger
+     * @var \outeredge\Easypathhints\Logger\Logger
      */
     protected $customLogger;
 
     /**
-     * @var \MagePsycho\Easypathhints\Helper\Config
+     * @var \outeredge\Easypathhints\Helper\Config
      */
     protected $configHelper;
 
@@ -30,7 +30,7 @@ class Data extends \Magento\Framework\App\Helper\AbstractHelper
     protected $moduleList;
 
     /**
-     * @var \MagePsycho\Easypathhints\Model\TemplateHintCookie
+     * @var \outeredge\Easypathhints\Model\TemplateHintCookie
      */
     protected $templateHintCookie;
 
@@ -41,9 +41,9 @@ class Data extends \Magento\Framework\App\Helper\AbstractHelper
 
     public function __construct(
         Context $context,
-        \MagePsycho\Easypathhints\Logger\Logger $customLogger,
-        \MagePsycho\Easypathhints\Helper\Config $configHelper,
-        \MagePsycho\Easypathhints\Model\TemplateHintCookie $templateHintCookie,
+        \outeredge\Easypathhints\Logger\Logger $customLogger,
+        \outeredge\Easypathhints\Helper\Config $configHelper,
+        \outeredge\Easypathhints\Model\TemplateHintCookie $templateHintCookie,
         ModuleListInterface $moduleList,
         \Magento\Framework\App\ProductMetadataInterface $mageMetaData
     ) {
@@ -94,7 +94,7 @@ class Data extends \Magento\Framework\App\Helper\AbstractHelper
 
     public function getExtensionVersion()
     {
-        $moduleCode = 'MagePsycho_Easypathhints';
+        $moduleCode = 'outeredge_Easypathhints';
         $moduleInfo = $this->moduleList->getOne($moduleCode);
         return $moduleInfo['setup_version'];
     }

@@ -1,32 +1,32 @@
 <?php
-namespace MagePsycho\Easypathhints\Block\System\Config\Form\Field;
+namespace outeredge\Easypathhints\Block\System\Config\Form\Field;
 
 use Magento\Framework\Data\Form\Element\AbstractElement;
 
 /**
  * Version renderer with link
  *
- * @category   MagePsycho
- * @package    MagePsycho_Easypathhints
- * @author     Raj KB <magepsycho@gmail.com>
- * @website    http://www.magepsycho.com
+ * @category   outeredge
+ * @package    outeredge_Easypathhints
+ * @author     Raj KB <outeredge@gmail.com>
+ * @website    http://www.outeredge.com
  */
 class Version extends \Magento\Config\Block\System\Config\Form\Field
 {
-    const EXTENSION_URL = 'http://www.magepsycho.com/magento-2-easy-template-path-hints.html';
+    const EXTENSION_URL = 'http://www.outeredge.com/magento-2-easy-template-path-hints.html';
 
     /**
-     * @var \MagePsycho\Easypathhints\Helper\Data $helper
+     * @var \outeredge\Easypathhints\Helper\Data $helper
      */
     protected $_helper;
 
     /**
      * @param   \Magento\Backend\Block\Template\Context $context
-     * @param   \MagePsycho\Easypathhints\Helper\Data   $helper
+     * @param   \outeredge\Easypathhints\Helper\Data   $helper
      */
     public function __construct(
         \Magento\Backend\Block\Template\Context $context,
-        \MagePsycho\Easypathhints\Helper\Data $helper
+        \outeredge\Easypathhints\Helper\Data $helper
     ) {
         $this->_helper = $helper;
         parent::__construct($context);
