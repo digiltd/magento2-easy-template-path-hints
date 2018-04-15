@@ -1,21 +1,21 @@
 <?php
 
-namespace outeredge\Easypathhints\Helper;
+namespace OuterEdge\Easypathhints\Helper;
 
 /**
- * @category   outeredge
- * @package    outeredge_Easypathhints
- * @author     Raj KB <outeredge@gmail.com>
- * @website    http://www.outeredge.com
+ * @category   OuterEdge
+ * @package    OuterEdge_Easypathhints
+ * @author     Raj KB <OuterEdge@gmail.com>
+ * @website    http://www.OuterEdge.com
  * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 class Config
 {
-    const XML_PATH_ENABLED     = 'outeredge_easypathhints/general/enabled';
-    const XML_PATH_DEBUG       = 'outeredge_easypathhints/general/debug';
-    const XML_PATH_ACCESS_CODE = 'outeredge_easypathhints/general/access_code';
-    const XML_PATH_SAVE_COOKIE = 'outeredge_easypathhints/general/save_in_cookie';
-    const XML_PATH_PROFILER    = 'outeredge_easypathhints/general/show_profiler';
+    const XML_PATH_ENABLED     = 'OuterEdge_easypathhints/general/enabled';
+    const XML_PATH_DEBUG       = 'OuterEdge_easypathhints/general/debug';
+    const XML_PATH_ACCESS_CODE = 'OuterEdge_easypathhints/general/access_code';
+    const XML_PATH_SAVE_COOKIE = 'OuterEdge_easypathhints/general/save_in_cookie';
+    const XML_PATH_PROFILER    = 'OuterEdge_easypathhints/general/show_profiler';
 
     const XML_PATH_DEBUG_TEMPLATE_FRONT = 'dev/debug/template_hints_storefront';
     const XML_PATH_DEBUG_TEMPLATE_ADMIN = 'dev/debug/template_hints_admin';

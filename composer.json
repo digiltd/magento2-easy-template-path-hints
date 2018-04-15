@@ -1,13 +1,13 @@
 {
-  "name": "outeredge/magento2-easy-template-path-hints",
+  "name": "OuterEdge/magento2-easy-template-path-hints",
   "description": "Easy Template Path Hints for Magento 2",
   "type": "magento2-module",
   "version": "1.1.2",
   "authors": [
     {
       "name": "Raj KB",
-      "email": "outeredge@gmail.com",
-      "homepage": "http://www.outeredge.com"
+      "email": "OuterEdge@gmail.com",
+      "homepage": "http://www.OuterEdge.com"
     }
   ],
   "license": [
@@ -21,7 +21,7 @@
       "registration.php"
     ],
     "psr-4": {
-      "outeredge\\Easypathhints\\": ""
+      "OuterEdge\\Easypathhints\\": ""
     }
   }
 }

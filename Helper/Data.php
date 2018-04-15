@@ -1,5 +1,5 @@
 <?php
-namespace outeredge\Easypathhints\Helper;
+namespace OuterEdge\Easypathhints\Helper;
 
 use Magento\Framework\App\Helper\Context;
 use Magento\Framework\Module\ModuleListInterface;
@@ -7,20 +7,20 @@ use Magento\Framework\Module\ModuleListInterface;
 /**
  * Utility Helper
  *
- * @category   outeredge
- * @package    outeredge_Easypathhints
- * @author     Raj KB <outeredge@gmail.com>
- * @website    http://www.outeredge.com
+ * @category   OuterEdge
+ * @package    OuterEdge_Easypathhints
+ * @author     Raj KB <OuterEdge@gmail.com>
+ * @website    http://www.OuterEdge.com
  */
 class Data extends \Magento\Framework\App\Helper\AbstractHelper
 {
     /**
-     * @var \outeredge\Easypathhints\Logger\Logger
+     * @var \OuterEdge\Easypathhints\Logger\Logger
      */
     protected $customLogger;
 
     /**
-     * @var \outeredge\Easypathhints\Helper\Config
+     * @var \OuterEdge\Easypathhints\Helper\Config
      */
     protected $configHelper;
 
@@ -30,7 +30,7 @@ class Data extends \Magento\Framework\App\Helper\AbstractHelper
     protected $moduleList;
 
     /**
-     * @var \outeredge\Easypathhints\Model\TemplateHintCookie
+     * @var \OuterEdge\Easypathhints\Model\TemplateHintCookie
      */
     protected $templateHintCookie;
 
@@ -41,9 +41,9 @@ class Data extends \Magento\Framework\App\Helper\AbstractHelper
 
     public function __construct(
         Context $context,
-        \outeredge\Easypathhints\Logger\Logger $customLogger,
-        \outeredge\Easypathhints\Helper\Config $configHelper,
-        \outeredge\Easypathhints\Model\TemplateHintCookie $templateHintCookie,
+        \OuterEdge\Easypathhints\Logger\Logger $customLogger,
+        \OuterEdge\Easypathhints\Helper\Config $configHelper,
+        \OuterEdge\Easypathhints\Model\TemplateHintCookie $templateHintCookie,
         ModuleListInterface $moduleList,
         \Magento\Framework\App\ProductMetadataInterface $mageMetaData
     ) {
@@ -94,7 +94,7 @@ class Data extends \Magento\Framework\App\Helper\AbstractHelper
 
     public function getExtensionVersion()
     {
-        $moduleCode = 'outeredge_Easypathhints';
+        $moduleCode = 'OuterEdge_Easypathhints';
         $moduleInfo = $this->moduleList->getOne($moduleCode);
         return $moduleInfo['setup_version'];
     }

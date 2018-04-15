@@ -1,12 +1,12 @@
 <?php
 
-namespace outeredge\Easypathhints\Logger;
+namespace OuterEdge\Easypathhints\Logger;
 
 /**
- * @category   outeredge
- * @package    outeredge_Easypathhints
- * @author     Raj KB <outeredge@gmail.com>
- * @website    http://www.outeredge.com
+ * @category   OuterEdge
+ * @package    OuterEdge_Easypathhints
+ * @author     Raj KB <OuterEdge@gmail.com>
+ * @website    http://www.OuterEdge.com
  * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 class Logger extends \Monolog\Logger

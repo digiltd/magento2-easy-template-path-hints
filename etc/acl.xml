@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <!--
 /**
- * @category   outeredge
- * @package    outeredge_Easypathhints
- * @author     Raj KB <outeredge@gmail.com>
- * @website    http://www.outeredge.com
+ * @category   OuterEdge
+ * @package    OuterEdge_Easypathhints
+ * @author     Raj KB <OuterEdge@gmail.com>
+ * @website    http://www.OuterEdge.com
  * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 -->
@@ -16,7 +16,7 @@
                 <resource id="Magento_Backend::stores">
                     <resource id="Magento_Backend::stores_settings">
                         <resource id="Magento_Config::config">
-                            <resource id="outeredge_Easypathhints::config" title="outeredge Easy Path Hints Section" sortOrder="50" />
+                            <resource id="OuterEdge_Easypathhints::config" title="OuterEdge Easy Path Hints Section" sortOrder="50" />
                         </resource>
                     </resource>
                 </resource>

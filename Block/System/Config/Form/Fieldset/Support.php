@@ -1,12 +1,12 @@
 <?php
 
-namespace outeredge\Easypathhints\Block\System\Config\Form\Fieldset;
+namespace OuterEdge\Easypathhints\Block\System\Config\Form\Fieldset;
 
 /**
- * @category   outeredge
- * @package    outeredge_Easypathhints
- * @author     Raj KB <outeredge@gmail.com>
- * @website    http://www.outeredge.com
+ * @category   OuterEdge
+ * @package    OuterEdge_Easypathhints
+ * @author     Raj KB <OuterEdge@gmail.com>
+ * @website    http://www.OuterEdge.com
  * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 class Support extends \Magento\Backend\Block\Template implements \Magento\Framework\Data\Form\Element\Renderer\RendererInterface
@@ -14,7 +14,7 @@ class Support extends \Magento\Backend\Block\Template implements \Magento\Framew
     /**
      * @var string
      */
-    protected $_template = 'outeredge_Easypathhints::system/config/form/fieldset/support.phtml';
+    protected $_template = 'OuterEdge_Easypathhints::system/config/form/fieldset/support.phtml';
     
     /**
      * @var \Magento\Framework\App\ProductMetadataInterface
@@ -73,8 +73,8 @@ class Support extends \Magento\Backend\Block\Template implements \Magento\Framew
     {
         $modules = $this->_loader->load();
         $v = "";
-        if (isset($modules['outeredge_Easypathhints'])) {
-            $v = $modules['outeredge_Easypathhints']['setup_version'];
+        if (isset($modules['OuterEdge_Easypathhints'])) {
+            $v = $modules['OuterEdge_Easypathhints']['setup_version'];
         }
         return $v;
     }

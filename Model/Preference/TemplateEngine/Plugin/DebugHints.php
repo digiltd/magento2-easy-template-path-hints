@@ -1,6 +1,6 @@
 <?php
 
-namespace outeredge\Easypathhints\Model\Preference\TemplateEngine\Plugin;
+namespace OuterEdge\Easypathhints\Model\Preference\TemplateEngine\Plugin;
 
 use Magento\Developer\Helper\Data as DevHelper;
 use Magento\Developer\Model\TemplateEngine\Decorator\DebugHintsFactory;
@@ -20,7 +20,7 @@ class DebugHints extends \Magento\Developer\Model\TemplateEngine\Plugin\DebugHin
         DevHelper $devHelper,
         DebugHintsFactory $debugHintsFactory,
         $debugHintsPath,
-        \outeredge\Easypathhints\Helper\Data $easyPathHintsHelper
+        \OuterEdge\Easypathhints\Helper\Data $easyPathHintsHelper
     ) {
         parent::__construct($scopeConfig, $storeManager, $devHelper, $debugHintsFactory, $debugHintsPath);
 
