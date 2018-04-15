@@ -21,7 +21,7 @@
       "registration.php"
     ],
     "psr-4": {
-      "MagePsycho\\Easypathhints\\": "src"
+      "MagePsycho\\Easypathhints\\": ""
     }
   }
 }
