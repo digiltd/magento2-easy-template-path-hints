@@ -2,11 +2,11 @@
 
 <config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
     <system>
-        <tab id="OuterEdge" translate="label" sortOrder="200">
-            <label>OuterEdge</label>
+        <tab id="outeredge" translate="label" sortOrder="200">
+            <label>outer/edge</label>
         </tab>
         <section id="OuterEdge_easypathhints" translate="label" showInDefault="1" showInWebsite="1" showInStore="1">
-            <tab>OuterEdge</tab>
+            <tab>outeredge</tab>
             <label>Easy Template Path Hints</label>
             <resource>OuterEdge_Easypathhints::config</resource>
             

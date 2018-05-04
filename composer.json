@@ -2,7 +2,7 @@
   "name": "outeredge/magento2-easy-template-path-hints",
   "description": "Easy Template Path Hints for Magento 2",
   "type": "magento2-module",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "authors": [
         {
             "name": "outer/edge",
