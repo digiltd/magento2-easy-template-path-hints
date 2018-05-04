@@ -6,12 +6,8 @@ use Magento\Framework\Module\ModuleListInterface;
 
 /**
  * Utility Helper
- *
- * @category   OuterEdge
- * @package    OuterEdge_Easypathhints
- * @author     Raj KB <OuterEdge@gmail.com>
- * @website    http://www.OuterEdge.com
  */
+
 class Data extends \Magento\Framework\App\Helper\AbstractHelper
 {
     /**

@@ -5,15 +5,11 @@ use Magento\Framework\Data\Form\Element\AbstractElement;
 
 /**
  * Version renderer with link
- *
- * @category   OuterEdge
- * @package    OuterEdge_Easypathhints
- * @author     Raj KB <OuterEdge@gmail.com>
- * @website    http://www.OuterEdge.com
  */
+
 class Version extends \Magento\Config\Block\System\Config\Form\Field
 {
-    const EXTENSION_URL = 'http://www.OuterEdge.com/magento-2-easy-template-path-hints.html';
+    const EXTENSION_URL = 'https://github.com/outeredge/magento2-easy-template-path-hints';
 
     /**
      * @var \OuterEdge\Easypathhints\Helper\Data $helper

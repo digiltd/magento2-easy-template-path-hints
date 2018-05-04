@@ -9,14 +9,7 @@ use Magento\Store\Model\ScopeInterface;
 use OuterEdge\Easypathhints\Helper\Data as EasypathhintsHelper;
 use OuterEdge\Easypathhints\Helper\Config as EasypathhintsConfigHelper;
 
-/**
- * Observer Class
- *
- * @category   OuterEdge
- * @package    OuterEdge_Easypathhints
- * @author     Raj KB <OuterEdge@gmail.com>
- * @website    http://www.OuterEdge.com
- */
+
 class ControllerActionPredispatch implements ObserverInterface
 {
     /**

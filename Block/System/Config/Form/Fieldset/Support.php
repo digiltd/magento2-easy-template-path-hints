@@ -2,13 +2,7 @@
 
 namespace OuterEdge\Easypathhints\Block\System\Config\Form\Fieldset;
 
-/**
- * @category   OuterEdge
- * @package    OuterEdge_Easypathhints
- * @author     Raj KB <OuterEdge@gmail.com>
- * @website    http://www.OuterEdge.com
- * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
- */
+
 class Support extends \Magento\Backend\Block\Template implements \Magento\Framework\Data\Form\Element\Renderer\RendererInterface
 {
     /**

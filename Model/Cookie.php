@@ -7,13 +7,7 @@ use Magento\Framework\Stdlib\Cookie\CookieMetadataFactory;
 use Magento\Framework\Stdlib\Cookie\PublicCookieMetadata;
 use Magento\Framework\Stdlib\CookieManagerInterface;
 
-/**
- * @category   OuterEdge
- * @package    OuterEdge_Easypathhints
- * @author     Raj KB <OuterEdge@gmail.com>
- * @website    http://www.OuterEdge.com
- * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
- */
+
 class Cookie
 {
     /**

@@ -2,13 +2,7 @@
 
 namespace OuterEdge\Easypathhints\Helper;
 
-/**
- * @category   OuterEdge
- * @package    OuterEdge_Easypathhints
- * @author     Raj KB <OuterEdge@gmail.com>
- * @website    http://www.OuterEdge.com
- * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
- */
+
 class Config
 {
     const XML_PATH_ENABLED     = 'OuterEdge_easypathhints/general/enabled';
